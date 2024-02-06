@@ -3,10 +3,7 @@ import { BiShoppingBag } from "react-icons/bi";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoMdMenu } from "react-icons/io";
 import { Link } from "react-router-dom";
-// import logoImg from "../images/logo.png";
 import logo from "../assets/logo.png";
-// import ActiveLink from "./ActiveLink";
-import { RxDashboard } from "react-icons/rx";
 
 const Navbar = () => {
   return (
@@ -18,7 +15,7 @@ const Navbar = () => {
           </div>
 
           <div className="">
-            <ul className="menu text-lg gap-8 font-monster menu-horizontal px-1 hidden lg:flex md:flex  ">
+            <ul className="menu text-[16px] gap-8 font-monster menu-horizontal px-1 hidden lg:flex md:flex  ">
               <Link to="/">Home</Link>
               <Link to="/">Service</Link>
               <Link to="/">Portfolio</Link>
@@ -27,10 +24,13 @@ const Navbar = () => {
               <Link to="/">Contact</Link>
               <Link to="/"> Career</Link>
               <Link to="/">
-                <div className="border font-bold border-black flex items-center gap-2 px-3 py-[2px] h-9 rounded-3xl">Get a quatation <div className="w-6 flex justify-center items-center  h-6 rounded-full bg-[#E28600]   text-white"><FiArrowUpRight className="" /></div>
-</div></Link>
-
-             
+                <div className="border font-bold border-black flex items-center gap-2 px-3  h-10 -mt-1 rounded-3xl">
+                  Get a quatation{" "}
+                  <div className="w-7 flex justify-center items-center  h-7 rounded-full bg-[#FF8700]   text-white">
+                    <FiArrowUpRight className="" />
+                  </div>
+                </div>
+              </Link>
             </ul>
             <div className="md:hidden lg:hidden px-3 ">
               <div className="flex items-center gap-2  ">
