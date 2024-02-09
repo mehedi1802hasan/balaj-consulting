@@ -40,33 +40,33 @@ const Navbar = () => {
                   </div>
                   <ul
                     tabIndex={0}
-                    className="dropdown-content text-black z-[1] menu lg:p-3  py-5 space-y-2  shadow bg-white  lg:w-32 w-36 -mr-4 rounded-md text-end  font-bold"
+                    className="dropdown-content text-black z-[1] menu lg:p-3  py-5 space-y-2  bg-white shadow-2xl  opacity-10 lg:w-32 w-48 px-5 -mr-4 rounded-lg  text-end   font-bold"
                   >
-                    <Link className="text-end flex  justify-end" to="/">
+                    <Link className="text-end flex    justify-end" to="/">
                       Home
                     </Link>
-                    <Link className="text-start flex  justify-end" to="/about">
+                    <Link className="text-start flex  justify-end" to="/">
                       Service{" "}
                     </Link>
                     <Link
                       className="text-start flex  justify-end"
-                      to="/mealpack"
+                      to="/"
                     >
                       Portfolio{" "}
                     </Link>
                     <Link
                       className="text-start flex  justify-end"
-                      to="/products"
+                      to="/"
                     >
                       Blog
                     </Link>
                     <Link
-                      className="text-start flex  justify-end"
-                      to="/profile"
+                      className="text-start flex   justify-end"
+                      to="/"
                     >
                       About Us
                     </Link>
-                    <Link className="text-start flex  justify-end" to="/login">
+                    <Link className="text-start flex  justify-end" to="/">
                       Contact
                     </Link>
                     <Link
@@ -75,12 +75,15 @@ const Navbar = () => {
                     >
                       Career
                     </Link>
-                    <Link
-                      className="text-start flex  justify-end"
-                      to="/myorderhistory"
+                    <div
+                      className="text-start -mr-3 justify-center   flex border py-[2px] rounded-2xl border-black items-center"
+                      to="/" 
                     >
-                      get a question
-                    </Link>
+<div  className=" ">                      Get a quatation
+</div>                     <div className="w-7 flex justify-center items-center  h-7 rounded-full bg-[#FF8700] ml-2  text-white">
+                    <FiArrowUpRight className="" />
+                  </div>
+                    </div>
                   </ul>
                 </div>
               </div>

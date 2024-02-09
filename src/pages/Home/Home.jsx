@@ -5,6 +5,7 @@ import DemoSection from './DemoSection';
 import ToolsTechService from './ToolsTechService';
 import Rating from './Rating';
 import Testimonials from './Testimonials';
+import ProcessSection from './ProcessSection';
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
       <ToolsTechService></ToolsTechService>
       <Rating></Rating>
       <Testimonials></Testimonials>
-   
+      <ProcessSection></ProcessSection>
   </div>
   );
 };
