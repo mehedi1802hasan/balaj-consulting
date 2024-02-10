@@ -31,7 +31,7 @@ const PartnerComp = () => {
        <h3 className="text-center lg:text-[40px] font-semibold">Companies we work with</h3>
         <p className="text-center text-lg">
           We have collaborated and worked with over 100+ companies to improve
-          and serve their purpose for improving digital presence.
+          and serve their purpose for improving digital presence
         </p>
        </div>
         <div clas>
