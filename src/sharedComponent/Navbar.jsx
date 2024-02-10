@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { BiShoppingBag } from "react-icons/bi";
+import { FaArrowRight } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoMdMenu } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className="">
             <ul className="menu text-[16px] gap-8 font-monster menu-horizontal px-1 hidden lg:flex md:flex  ">
               <Link to="/">Home</Link>
-              <Link to="/">Service</Link>
+              <Link to="/services">Service</Link>
               <Link to="/">Portfolio</Link>
               <Link to="/"> Blog</Link>
               <Link to="/">About Us</Link>
@@ -40,12 +40,12 @@ const Navbar = () => {
                   </div>
                   <ul
                     tabIndex={0}
-                    className="dropdown-content text-black z-[1] menu lg:p-3  py-5 space-y-2  bg-white shadow-2xl  opacity-10 lg:w-32 w-48 px-5 -mr-4 rounded-lg  text-end   font-bold"
+                    className="dropdown-content text-black z-[1] menu lg:p-3  py-5 space-y-2   shadow-2xl  opacity-10 lg:w-32 w-48 px-5 -mr-4 rounded-lg   text-end   font-bold"
                   >
                     <Link className="text-end flex    justify-end" to="/">
                       Home
                     </Link>
-                    <Link className="text-start flex  justify-end" to="/">
+                    <Link className="text-start flex  justify-end" to="/services">
                       Service{" "}
                     </Link>
                     <Link
@@ -81,12 +81,13 @@ const Navbar = () => {
                     >
 <div  className=" ">                      Get a quatation
 </div>                     <div className="w-7 flex justify-center items-center  h-7 rounded-full bg-[#FF8700] ml-2  text-white">
-                    <FiArrowUpRight className="" />
+                    <FaArrowRight className="" />
                   </div>
                     </div>
                   </ul>
                 </div>
               </div>
+            
             </div>
           </div>
         </div>

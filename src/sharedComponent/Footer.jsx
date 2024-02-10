@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div>
       {/**contack section  */}
-      <div className="md:flex lg:flex justify-center mt-10 md:mt:52 items-center lg:gap-14 lg:mt-52 lg:mb-24">
+      <div className="md:flex lg:flex justify-center mt-10 md:mt:44 items-center lg:gap-14 lg:mt-44 lg:mb-24">
         {/**text part  */}
         <div >
        <div className="w-[260px]  mx-auto md:mx-0 lg:ms-0 md:w-[461px] lg:w-[461px] mt-16 md:mt-36 lg:mt-36">

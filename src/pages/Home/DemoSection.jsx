@@ -18,12 +18,13 @@ const DemoSection = () => {
       </div>
 
       {/** --------Demo section-----flex-col lg:flex-row-reverse- */}
-      <div className="bg-[#FF8700]   lg:w-[1300px] mx-auto lg:h-[600px] rounded-[50px] flex flex-col lg:flex-row-reverse justify-center gap-8 py-5  text-white items-center   ">
-      <div className=" flex justify-center items-center   ">
-<h3 className="border h-[200px] w-[220px] lg:h-[459px] lg:w-[489px]">
-{/* <img className="" src='' alt="" /> */}
-</h3>         
-      </div>
+      <div className="bg-[#FF8700]    lg:w-[1300px] mx-auto lg:h-[600px] rounded-[50px] flex flex-col lg:flex-row-reverse justify-center gap-8 py-5  text-white items-center   ">
+      <div className="flex justify-center items-center rounded-3xl">
+  <div className=" h-48 w-56 lg:h-[435px] -mt-12 lg:w-[489px]">
+    <iframe className="w-full rounded-3xl h-full" src="https://www.youtube.com/embed/rrHrcRMRTtQ" frameBorder="0" allowFullScreen></iframe>
+  </div>
+</div>
+
         <div className=" mx-auto lg:mx-0  flex-col justify-center items-center">
           <div className=" w-[300px] lg:w-[632px] text-[30px] lg:text-[64px] lg:leading-[80px] mx-auto   ">
             We are small enough to care big enough to deliver
