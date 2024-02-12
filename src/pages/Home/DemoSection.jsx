@@ -1,5 +1,5 @@
 import React from "react";
-import frameVideo from '../../assets/frameVideo.png';
+import frameVideo from "../../assets/frameVideo.png";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const DemoSection = () => {
@@ -19,38 +19,57 @@ const DemoSection = () => {
 
       {/** --------Demo section-----flex-col lg:flex-row-reverse- */}
       <div className="bg-[#FF8700]    lg:w-[1300px] mx-auto h-[600px] rounded-[50px] flex flex-col lg:flex-row-reverse justify-center gap-8 py-5  text-white items-center   ">
-      <div className="flex justify-center items-center rounded-3xl">
-  <div className=" h-52 w-60 lg:h-[435px] lg:-mt-12 lg:w-[489px]">
-    <iframe className="w-full rounded-3xl h-full" src="https://www.youtube.com/embed/rrHrcRMRTtQ" frameBorder="0" allowFullScreen></iframe>
-  </div>
-</div>
+        <div className="flex justify-center items-center rounded-3xl">
+          <div className=" h-52 w-60 lg:h-[435px] lg:-mt-12 lg:w-[489px]">
+            <iframe
+              className="w-full rounded-3xl h-full"
+              src="https://www.youtube.com/embed/rrHrcRMRTtQ"
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
         <div className=" mx-auto lg:mx-0  flex-col justify-center items-center">
           <div className=" w-[300px] lg:w-[632px] text-[30px] lg:text-[64px] lg:leading-[80px] mx-auto   ">
             We are small enough to care big enough to deliver
           </div>
           <div className="flex justify-between items-center w-[300px] mx-auto lg:w-[652px]  ">
-          <div>
-            <p className="text-[30px] lg:text-[44px] font-semibold text-center"> 20+</p><p className="text-[10px] lg:text-[14px] w-[78px] text-center">BUSINESS CUSTOMERS</p>
-          </div>
-          <div>
-            <p className="text-[30px] lg:text-[44px] font-semibold text-center">  60+</p><p className="text-[10px] lg:text-[14px] w-[78px] text-center">Orders
-completed</p>
-          </div>
-          <div className="-mt-4 lg:mt-0">
-            <p className="text-[30px] lg:text-[44px] font-semibold text-center"> 100%</p><p className="text-[10px] lg:text-[14px] w-[78px] text-center">happy 
-clients</p>
-          </div>
-          <div className="lg:mt-5 ">
-            <p className=" py-[24px] lg:py-[60px] px-[2px] w-[45px] lg:w-[79px] flex justify-center  mx-auto border border-white rounded-2xl lg:rounded-[99px]"><FiArrowUpRight/></p>
-          <p className=" text-[12px] lg:text-[30px]">View Demo</p>
-          </div>
+            <div>
+              <p className="text-[30px] lg:text-[44px] font-semibold text-center">
+                {" "}
+                20+
+              </p>
+              <p className="text-[10px] lg:text-[14px] w-[78px] text-center">
+                BUSINESS CUSTOMERS
+              </p>
+            </div>
+            <div>
+              <p className="text-[30px] lg:text-[44px] font-semibold text-center">
+                {" "}
+                60+
+              </p>
+              <p className="text-[10px] lg:text-[14px] w-[78px] text-center">
+                Orders completed
+              </p>
+            </div>
+            <div className="-mt-4 lg:mt-0">
+              <p className="text-[30px] lg:text-[44px] font-semibold text-center">
+                {" "}
+                100%
+              </p>
+              <p className="text-[10px] lg:text-[14px] w-[78px] text-center">
+                happy clients
+              </p>
+            </div>
+            <div className="lg:mt-5 ">
+              <p className=" py-[24px] lg:py-[60px] px-[2px] w-[45px] lg:w-[79px] flex justify-center  mx-auto border border-white rounded-2xl lg:rounded-[99px]">
+                <FiArrowUpRight />
+              </p>
+              <p className=" text-[12px] lg:text-[30px]">View Demo</p>
+            </div>
           </div>
         </div>
-
-
-       
-      
       </div>
     </div>
   );

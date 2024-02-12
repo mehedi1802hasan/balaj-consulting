@@ -20,8 +20,8 @@ const ServiceBanner = () => {
 
            <h3 className='lg:text-[75px] text-center md:text-start lg:text-start text-[#191A15] lg:leading-[80px] font-bold relative'>
   We boost the    
-  <span className="relative mx-3">
-    <span className="lg:bg-yellow-500 absolute bottom-0  w-full h-7"></span>
+  <span className="relative mx-3 ">
+    <span className="lg:bg-yellow-500 absolute bottom-0 right-[229px] w-60 h-7"></span>
     <span className="relative z-10">growth</span>
   </span> 
   and turn your 

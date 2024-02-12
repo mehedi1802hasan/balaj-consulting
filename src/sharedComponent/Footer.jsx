@@ -93,7 +93,8 @@ const Footer = () => {
           <a className="link link-hover">Contact us</a>
         </div>
     
-        <div  className="text-[#A6A6A6] ">
+    <div className="flex lg:flex-none   gap-6">
+    <div  className="text-[#A6A6A6]  flex flex-col">
           <a className="link link-hover">Portfolio</a>
           <a className="link link-hover">Blogs</a>
           <a className="link link-hover">Testimonials</a>
@@ -104,6 +105,7 @@ const Footer = () => {
           <a className="link link-hover flex items-center gap-2 font-semibold"><span><img className="bg-black p-1 ml-1 rounded-full" src={X} alt="" /></span> X</a>
           <a className="link link-hover flex items-center gap-1"><span><img src={linkedin} alt="" /></span> LinkedIn</a>
         </div>
+    </div>
       
     
       </footer>
