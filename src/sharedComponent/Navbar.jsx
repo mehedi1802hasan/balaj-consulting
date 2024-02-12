@@ -7,7 +7,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="w-full ">
+    <div className="w-full z-10 relative">
       <div className="mx-auto max-w-[1300px]  font-montserrat    z-10">
         <div className=" navbar flex justify-between items-center">
           <div className=" flex items-center gap-4 font-bold">
@@ -18,7 +18,7 @@ const Navbar = () => {
             <ul className="menu text-[16px] gap-8 font-monster menu-horizontal px-1 hidden lg:flex md:flex  ">
               <Link to="/">Home</Link>
               <Link to="/services">Service</Link>
-              <Link to="/">Portfolio</Link>
+              <Link to="/portfolio">Portfolio</Link>
               <Link to="/"> Blog</Link>
               <Link to="/">About Us</Link>
               <Link to="/">Contact</Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                       className="text-start flex  justify-end"
-                      to="/"
+                      to="/portfolio"
                     >
                       Portfolio{" "}
                     </Link>
