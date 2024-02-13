@@ -19,7 +19,7 @@ const Navbar = () => {
               <Link to="/">Home</Link>
               <Link to="/services">Service</Link>
               <Link to="/portfolio">Portfolio</Link>
-              <Link to="/"> Blog</Link>
+              <Link to="/blog"> Blog</Link>
               <Link to="/">About Us</Link>
               <Link to="/">Contact</Link>
               <Link to="/"> Career</Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                       className="text-start flex  justify-end"
-                      to="/"
+                      to="/blog"
                     >
                       Blog
                     </Link>
