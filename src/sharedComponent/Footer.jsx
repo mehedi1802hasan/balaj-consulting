@@ -66,11 +66,11 @@ const Footer = () => {
 
       {/**Footer section  */}
       <footer className="footer   lg:w-[1200px] mx-auto p-5 md:p-8 lg:p-10 mt-9 text-base-content">
-        <div className=" lg:-mt-11 ">
-          <h3 className="  text-[24px] lg:text-[45px] font-bold text-[#FF8700]">
+        <div className=" w-[200px] lg:w-full mx-auto lg:-mt-11 ">
+          <h3 className="  text-[24px] text-center lg:text-[45px] font-bold text-[#FF8700]">
             Balaj Consulting
           </h3>
-          <p className=" my-2 md:my-5 lg:my-5  text-[14px] md:text-[18px] lg:text-[18px] text-[#A6A6A6]">
+          <p className=" text-center md:text-start lg:text-start  my-2 md:my-5 lg:my-5  text-[14px] md:text-[18px] lg:text-[18px] text-[#A6A6A6]">
             Get started noew try our product
           </p>
           <div className=" text-center mb-4 md:mb-8 lg:mb-8">
@@ -85,15 +85,15 @@ const Footer = () => {
             </button>
           </div>
         </div>
-    
-       <div className="text-[#A6A6A6]  ">
+        <div className="flex lg:flex-none  justify-between lg:justify-start gap-7 w-[300px] lg:w-full mx-auto md:mx-0 lg:mx-0  lg:gap-24">
+       <div className="text-[#A6A6A6]  flex flex-col gap-2 ">
           <a className="link link-hover">Solutions</a>
           <a className="link link-hover">Legal Information</a>
           <a className="link link-hover">About</a>
           <a className="link link-hover">Contact us</a>
         </div>
     
-    <div className="flex lg:flex-none justify-between lg:justify-start w-80 lg:gap-24">
+  
     <div  className="text-[#A6A6A6]  flex flex-col gap-2">
           <a className="link link-hover">Portfolio</a>
           <a className="link link-hover">Blogs</a>
