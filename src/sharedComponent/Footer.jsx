@@ -15,8 +15,8 @@ import linkedin from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <div>
-      {/**contack section  */}
-      <div className="md:flex lg:flex justify-center mt-10 md:mt:44 items-center lg:gap-14 lg:mt-44 lg:mb-24">
+      {/**contact section  */}
+      <div className="md:flex lg:flex justify-center mt-10 md:mt:44 items-center lg:gap-14 lg:mt-36 lg:mb-24">
         {/**text part  */}
         <div >
        <div className="w-[260px]  mx-auto md:mx-0 lg:ms-0 md:w-[461px] lg:w-[461px] mt-16 md:mt-36 lg:mt-36">
@@ -42,13 +42,13 @@ const Footer = () => {
           </div>
         </div>
         {/**contact part  */}
-        <div className="w-[352px] mx-auto md:mx-0 lg:ms-0 md:w-[612px] lg:w-[612px] text-white h-[458px] md:h-[558px]  lg:h-[558px] rounded-[20px] flex justify-center items-center bg-[#FF8700]">
+        <div className="w-[322px] mx-auto md:mx-0 lg:ms-0 md:w-[612px] lg:w-[612px] text-white h-[458px] md:h-[558px]  lg:h-[558px] rounded-[20px] flex justify-center items-center bg-[#FF8700]">
           <div className="lg:-mt-8">
           <div className="">
-        <img className=' w-[42px]md:w-[72px] lg:w-[72px] mx-auto' src={coinicon} alt="" />
+        <img className=' w-[42px] md:w-[72px] lg:w-[72px] mx-auto' src={coinicon} alt="" />
           <h3 className="text-center text-[16px] md:text-[32px] lg:text-[32px] mt-1 mb-2 md:mb-3 lg:mb-3">Get Started</h3>
         </div>
-          <div className="w-[280px] md:w-[440px] lg:w-[440px] mx-auto ">
+          <div className="w-[260px] md:w-[440px] lg:w-[440px] mx-auto ">
             <div>
               <h3 className=" text-[14px] md:text-[18px] lg:text-[18px] font-semibold">Email</h3>
               <input type="text" className=" text-black w-full mt-1  md:mt-3 lg:mt-3 mb-3 md:mb-4 lg:mb-4 h-[40px] md:h-[45px] lg:h-[50px] rounded-lg px-4" placeholder="enter your email" />

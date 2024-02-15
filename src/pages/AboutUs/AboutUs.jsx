@@ -5,6 +5,7 @@ import TotalNumber from './TotalNumber';
 import SectionWhy from './SectionWhy';
 import OurClients from './OurClients';
 import OurTeam from './OurTeam';
+import OurProcess from './OurProcess';
 
 const AboutUs = () => {
     return (
@@ -15,6 +16,7 @@ const AboutUs = () => {
 <SectionWhy></SectionWhy>
 <OurClients></OurClients>
 <OurTeam></OurTeam>
+<OurProcess></OurProcess>
    </div>
     );
 };

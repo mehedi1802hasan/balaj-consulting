@@ -18,7 +18,7 @@ const DemoSection = () => {
       </div>
 
       {/** --------Demo section-----flex-col lg:flex-row-reverse- */}
-      <div className="bg-[#FF8700]    lg:w-[1300px] mx-auto h-[600px] rounded-[50px] flex flex-col lg:flex-row-reverse justify-center gap-8 py-5  text-white items-center   ">
+      <div className="bg-[#FF8700] w-[340px]    lg:w-[1300px] mx-auto  h-[480px] lg:h-[600px] rounded-[50px] flex flex-col lg:flex-row-reverse justify-center gap-8 py-5  text-white items-center   ">
         <div className="flex justify-center items-center rounded-3xl">
           <div className=" h-52 w-60 lg:h-[435px] lg:-mt-12 lg:w-[489px]">
             <iframe
@@ -31,12 +31,12 @@ const DemoSection = () => {
         </div>
 
         <div className=" mx-auto lg:mx-0  flex-col justify-center items-center">
-          <div className=" w-[300px] lg:w-[632px] text-[30px] lg:text-[64px] lg:leading-[80px] mx-auto   ">
+          <div className=" w-[300px] lg:w-[632px] text-[22px] lg:text-[64px] lg:leading-[80px] mx-auto   ">
             We are small enough to care big enough to deliver
           </div>
           <div className="flex justify-between items-center w-[300px] mx-auto lg:w-[652px]  ">
             <div>
-              <p className="text-[30px] lg:text-[44px] font-semibold text-center">
+              <p className="text-[20px] lg:text-[44px] font-semibold text-center">
                 {" "}
                 20+
               </p>
@@ -45,7 +45,7 @@ const DemoSection = () => {
               </p>
             </div>
             <div>
-              <p className="text-[30px] lg:text-[44px] font-semibold text-center">
+              <p className="text-[20px] lg:text-[44px] font-semibold text-center">
                 {" "}
                 60+
               </p>
@@ -54,7 +54,7 @@ const DemoSection = () => {
               </p>
             </div>
             <div className="-mt-4 lg:mt-0">
-              <p className="text-[30px] lg:text-[44px] font-semibold text-center">
+              <p className="text-[20px] lg:text-[44px] font-semibold text-center">
                 {" "}
                 100%
               </p>
@@ -63,7 +63,7 @@ const DemoSection = () => {
               </p>
             </div>
             <div className="lg:mt-5 ">
-              <p className=" py-[24px] lg:py-[60px] px-[2px] w-[45px] lg:w-[79px] flex justify-center  mx-auto border border-white rounded-2xl lg:rounded-[99px]">
+              <p className=" py-[18px] lg:py-[60px] px-[2px] w-[45px] lg:w-[79px] flex justify-center  mx-auto border border-white rounded-xl lg:rounded-[99px]">
                 <FiArrowUpRight />
               </p>
               <p className=" text-[12px] lg:text-[30px]">View Demo</p>
