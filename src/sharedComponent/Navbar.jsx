@@ -21,7 +21,7 @@ const Navbar = () => {
               <Link to="/portfolio">Portfolio</Link>
               <Link to="/blog"> Blog</Link>
               <Link to="/aboutus">About Us</Link>
-              <Link to="/">Contact</Link>
+              <Link to="/contactus">Contact</Link>
               <Link to="/"> Career</Link>
               <Link to="/">
                 <div className="border font-bold border-black flex items-center gap-2 px-3  h-10 -mt-1 rounded-3xl">
@@ -66,7 +66,7 @@ const Navbar = () => {
                     >
                       About Us
                     </Link>
-                    <Link className="text-start flex  justify-end" to="/">
+                    <Link className="text-start flex  justify-end" to="/contactus">
                       Contact
                     </Link>
                     <Link
