@@ -21,7 +21,7 @@ const GetInTouch = () => {
           <p className="my-9 text-[12px] lg:text-[16px] text-[#858585] w-[310px]  lg:w-[550px] mx-auto">
             Lorem ipsum dolor sit amet consectetur. Nisl scelerisque convallis
             iaculis diam. Risus malesuada egestas ut venenatis eget. Faucibus
-            habitant porta et.
+            habitant porta et..
           </p>
           <div className="md:flex lg:flex  items-center space-y-6 gap-12">
             <div className=" w-[233px] mx-auto md:mx-0 lg:mx-0">
