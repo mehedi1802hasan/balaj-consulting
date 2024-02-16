@@ -4,6 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { IoMdMenu } from "react-icons/io";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import ActiveLink from "./ActiveLink";
 
 const Navbar = () => {
   return (
@@ -16,21 +17,21 @@ const Navbar = () => {
 
           <div className="">
             <ul className="menu text-[16px] gap-8 font-monster menu-horizontal px-1 hidden lg:flex md:flex  ">
-              <Link to="/">Home</Link>
-              <Link to="/services">Service</Link>
-              <Link to="/portfolio">Portfolio</Link>
-              <Link to="/blog"> Blog</Link>
-              <Link to="/aboutus">About Us</Link>
-              <Link to="/contactus">Contact</Link>
-              <Link to="/"> Career</Link>
-              <Link to="/">
+              <ActiveLink to="/">Home</ActiveLink>
+              <ActiveLink to="/services">Service</ActiveLink>
+              <ActiveLink to="/portfolio">Portfolio</ActiveLink>
+              <ActiveLink to="/blog"> Blog</ActiveLink>
+              <ActiveLink to="/aboutus">About Us</ActiveLink>
+              <ActiveLink to="/contactus">Contact</ActiveLink>
+              <ActiveLink to="/"> Career</ActiveLink>
+              <ActiveLink to="/">
                 <div className="border font-bold border-black flex items-center gap-2 px-3  h-10 -mt-1 rounded-3xl">
                   Get a quatation{" "}
                   <div className="w-7 flex justify-center items-center  h-7 rounded-full bg-[#FF8700]   text-white">
                     <FiArrowUpRight className="" />
                   </div>
                 </div>
-              </Link>
+              </ActiveLink>
             </ul>
             <div className="md:hidden lg:hidden px-3 ">
               <div className="flex items-center gap-2  ">
@@ -42,39 +43,39 @@ const Navbar = () => {
                     tabIndex={0}
                     className="dropdown-content text-black z-[1] menu lg:p-3  py-5 space-y-2   shadow-2xl  opacity-10 lg:w-32 w-48 px-5 -mr-4 rounded-lg   text-end   font-bold"
                   >
-                    <Link className="text-end flex    justify-end" to="/">
+                    <ActiveLink className="text-end flex    justify-end" to="/">
                       Home
-                    </Link>
-                    <Link className="text-start flex  justify-end" to="/services">
+                    </ActiveLink>
+                    <ActiveLink className="text-start flex  justify-end" to="/services">
                       Service{" "}
-                    </Link>
-                    <Link
+                    </ActiveLink>
+                    <ActiveLink
                       className="text-start flex  justify-end"
                       to="/portfolio"
                     >
                       Portfolio{" "}
-                    </Link>
-                    <Link
+                    </ActiveLink>
+                    <ActiveLink
                       className="text-start flex  justify-end"
                       to="/blog"
                     >
                       Blog
-                    </Link>
-                    <Link
+                    </ActiveLink>
+                    <ActiveLink
                       className="text-start flex   justify-end"
                       to="/aboutus"
                     >
                       About Us
-                    </Link>
-                    <Link className="text-start flex  justify-end" to="/contactus">
+                    </ActiveLink>
+                    <ActiveLink className="text-start flex  justify-end" to="/contactus">
                       Contact
-                    </Link>
-                    <Link
+                    </ActiveLink>
+                    <ActiveLink
                       className="text-start flex  justify-end"
                       to="/dashboard"
                     >
                       Career
-                    </Link>
+                    </ActiveLink>
                     <div
                       className="text-start -mr-3 justify-center   flex border py-[2px] rounded-2xl border-black items-center"
                       to="/" 
