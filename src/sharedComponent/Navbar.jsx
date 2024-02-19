@@ -23,7 +23,7 @@ const Navbar = () => {
               <ActiveLink to="/blog"> Blog</ActiveLink>
               <ActiveLink to="/aboutus">About Us</ActiveLink>
               <ActiveLink to="/contactus">Contact</ActiveLink>
-              <ActiveLink to="/"> Career</ActiveLink>
+              <ActiveLink to="/career"> Career</ActiveLink>
               <ActiveLink to="/termsandcondition">
                 <div className="border  border-black flex items-center gap-2 px-3  h-10 -mt-2 rounded-3xl">
                   Get a quatation{" "}
@@ -72,7 +72,7 @@ const Navbar = () => {
                     </ActiveLink>
                     <ActiveLink
                       className="text-start flex  justify-end"
-                      to="/dashboard"
+                      to="/career"
                     >
                       Career
                     </ActiveLink>

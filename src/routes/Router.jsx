@@ -9,6 +9,7 @@ import Blog from "../pages/Blog/Blog";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import TermsAndCondition from "../pages/TermsAndCondition.jsx/TermsAndCondition";
+import Career from "../pages/Career/Career";
   
 const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         {
           path:"termsandcondition",
           element:<TermsAndCondition></TermsAndCondition>
+        },
+        {
+          path:"career",
+          element:<Career></Career>
         }
 
       ]

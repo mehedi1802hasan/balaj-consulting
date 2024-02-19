@@ -5,13 +5,13 @@ const ContactForm = () => {
         <div>
         <div className='w-[350px] md:w-[1259px] lg:w-[1259px] mx-auto '>
           <div className='flex gap-8 items-center mx-12 '>
-            <h3 className='text-[#FF8700] text-[24px] py-6    border-b-2 border-[#FF8700]'>Contact us</h3>
-            <h3 className='text-[#A3A3A3] text-[24px]'> Work with us</h3>
+            <h3 className='text-[#FF8700] text-[18px] lg:text-[24px] py-6    border-b-2 border-[#FF8700]'>Contact us</h3>
+            <h3 className='text-[#A3A3A3] text-[18px] lg:text-[24px] '> Work with us</h3>
           </div>
           <div className="divider clear-start -mt-2"></div> 
-           <div className='my-20'>
-               <h3 className='text-[25px] md:text-[45px] lg:text-[45px] text-[#0A0A0A] font-bold text-center'>Say hello to us !</h3>
-               <p className='text-[10px] md:text-[16px] lg:text-[16px]  w-[300px]  md:w-[517px]  lg:w-[517px] mx-auto text-center text-[#858585]'>Write anything you want to say to say hello to us, or you can send an email to <span className='text-[#FF8700]'>contact@balaj.consulting</span> </p>
+           <div className=' my-8 lg:my-20'>
+               <h3 className='text-[22px] md:text-[45px] lg:text-[45px] text-[#0A0A0A] font-bold text-center'>Say hello to us !</h3>
+               <p className='text-[10px] md:text-[16px] lg:text-[16px]  w-[300px]  md:w-[517px] my-3  lg:w-[517px] mx-auto text-center text-[#858585]'>Write anything you want to say to say hello to us, or you can send an email to <span className='text-[#FF8700]'>contact@balaj.consulting</span> </p>
                <div className='w-[350px]  md:w-[1035px] lg:w-[1035px] mx-auto my-12  '>
                <div className='flex justify-center items-center gap-2 md:gap-5 lg:gap-5 my-7'>
                <input className='w-[165px] md:w-[500px] lg:w-[500px] ps-10  h-[40px]   md:h-[70px]   lg:h-[70px]  input input-bordered' type="text" name="" id="" placeholder='First Name' />
