@@ -24,8 +24,8 @@ const Navbar = () => {
               <ActiveLink to="/aboutus">About Us</ActiveLink>
               <ActiveLink to="/contactus">Contact</ActiveLink>
               <ActiveLink to="/"> Career</ActiveLink>
-              <ActiveLink to="/">
-                <div className="border font-bold border-black flex items-center gap-2 px-3  h-10 -mt-1 rounded-3xl">
+              <ActiveLink to="/termsandcondition">
+                <div className="border  border-black flex items-center gap-2 px-3  h-10 -mt-2 rounded-3xl">
                   Get a quatation{" "}
                   <div className="w-7 flex justify-center items-center  h-7 rounded-full bg-[#FF8700]   text-white">
                     <FiArrowUpRight className="" />
@@ -78,7 +78,7 @@ const Navbar = () => {
                     </ActiveLink>
                     <div
                       className="text-start -mr-3 justify-center   flex border py-[2px] rounded-2xl border-black items-center"
-                      to="/" 
+                      to="/termsandcondition" 
                     >
 <div  className=" ">                      Get a quatation
 </div>                     <div className="w-7 flex justify-center items-center  h-7 rounded-full bg-[#FF8700] ml-2  text-white">

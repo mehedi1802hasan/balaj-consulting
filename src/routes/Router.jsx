@@ -8,6 +8,7 @@ import Portfolio from "../pages/Portfolio/Portfolio";
 import Blog from "../pages/Blog/Blog";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import TermsAndCondition from "../pages/TermsAndCondition.jsx/TermsAndCondition";
   
 const router = createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         {
           path:"contactus",
           element:<ContactUs></ContactUs>
+        },
+        {
+          path:"termsandcondition",
+          element:<TermsAndCondition></TermsAndCondition>
         }
 
       ]
