@@ -5,8 +5,6 @@ import { blogdata } from "../../demodb/blogdata";
 import ResponsivePagination from 'react-responsive-pagination';
 import 'react-responsive-pagination/themes/classic.css';
 
-
-import  './blogTop.css';
 const BlogTop = () => {
   console.log("...", blogdata);
   const [currentPage, setCurrentPage] = useState(1);
