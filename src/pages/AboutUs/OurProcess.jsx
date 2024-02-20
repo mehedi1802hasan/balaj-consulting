@@ -6,7 +6,7 @@ const OurProcess = () => {
           <div className='w-[320px] lg:w-[1249px] mx-auto'>
             <h3 className='text-[#000000] text-[25px] lg:text-[43px] text-center font-bold'>Our Process</h3>
             <p className=' w-[290px] lg:w-[550px] mx-auto text-[12px] lg:text-[16px] text-[#858585] lg:leading-7 '>Lorem ipsum dolor sit amet consectetur. Bibendum aliquam aliquet in nunc augue at ultrices purus. Morbi diam vitae sed nulla mi. Tristique ornare nunc.</p>
-         <div className='lg:flex justify-center items-center gap-7 space-y-6 lg:space-y-0 mt-7'>
+         <div className='lg:flex justify-center items-center gap-7 space-y-5 lg:space-y-0 mt-7'>
 
          <div className='flex justify-center items-center '>
                 <div className='w-[240px] lg:w-[270px] bg-[#FF8700] py-14  px-7 rounded-[32px]'>

@@ -14,11 +14,11 @@ import netflix from "../../assets/netflix.png";
 const OurClients = () => {
   return (
     <div>
-      <div className="w-[370px] mt-9 lg:w-[1250px] mx-auto">
+      <div className="w-[330px] mt-9 lg:w-[1150px] mx-auto">
         <h3 className="text-center font-bold text-[24px] lg:text-[45px] text-[#1A1A1A] ">
           Our satisfied clients
         </h3>
-        <div className="my-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-7">
+        <div className="my-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 lg:gap-x-16  gap-y-4 lg:gap-y-7">
           <div className="bg-[#F7F7F7] lg:w-[286px] h-[170px] flex justify-center items-center">
             <img  className="w-[90px] lg:w-fit" src={razorpay} alt="" />
           </div>
