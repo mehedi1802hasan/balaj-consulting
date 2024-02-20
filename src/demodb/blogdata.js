@@ -32,7 +32,7 @@ export const blogdata=[
             "subtitle":"Laoreet donec nibh orci est integer. Vitae faucibus consectetur id semper euismod sit. Cras maecenas nec pellentesque neque, eu. Adipiscing dignissim magna fusce feugiat enim, urna.",
             "authorImage":"https://i.ibb.co/HFPkg6m/pexels-photo-2513993.jpg",
             "authorName":"Samantha W",
-            "profession":"web Developer",
+            "profession":"junior Developer",
       
              },
              {
@@ -41,7 +41,7 @@ export const blogdata=[
               "subtitle":"Laoreet donec nibh orci est integer. Vitae faucibus consectetur id semper euismod sit. Cras maecenas nec pellentesque neque, eu. Adipiscing dignissim magna fusce feugiat enim, urna.",
               "authorImage":"https://i.ibb.co/HFPkg6m/pexels-photo-2513993.jpg",
               "authorName":"Samantha W",
-              "profession":"web Developer",
+              "profession":"data Developer",
         
                },
                {
@@ -50,7 +50,7 @@ export const blogdata=[
                 "subtitle":"Laoreet donec nibh orci est integer. Vitae faucibus consectetur id semper euismod sit. Cras maecenas nec pellentesque neque, eu. Adipiscing dignissim magna fusce feugiat enim, urna.",
                 "authorImage":"https://i.ibb.co/HFPkg6m/pexels-photo-2513993.jpg",
                 "authorName":"Samantha W",
-                "profession":"web Developer",
+                "profession":"app Developer",
           
                  }
   ];

@@ -40,7 +40,7 @@ const BlogTop = () => {
             massa. Nisl nibh faucibus nunc vel. Vulputate pellentesque fringilla
             orci praesent vel cursus dui. Imperdiet euismod tempus, massa
             rutrum. Gravida augue purus non, cursus quam cum ultricies.
-            Pellentesque blandit sit ut magna enim.{" "}
+            Pellentesque blandit sit ut magna enim
           </p>
           <div className="flex   items-center gap-5 justify-center lg:justify-start">
             <img src={blogTopMan} alt="" />
