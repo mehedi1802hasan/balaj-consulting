@@ -5,7 +5,7 @@ const LettestProject = () => {
         <div className='relative'>
             <div className='bg-[#e2ecf8]  pt-80 w-full -top-52 absolute opacity-15 '></div>
             <div className=''>
-                <h3 className='opacity-100 lg:text-[43px] font-bold text-center text-[#0F172A] '>Our latest Project</h3>
+                <h3 className='opacity-100 lg:text-[43px] font-bold text-center text-[#0F172A] '>Our latest Project---//</h3>
                 <h3 className='text-[13px] text-[#FF8700] text-center'>Our Portfolio</h3>
                 {/* Ensure that the link is within the same parent div */}
                 <div className="z-10 relative"> 
