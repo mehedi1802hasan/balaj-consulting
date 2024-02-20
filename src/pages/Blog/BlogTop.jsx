@@ -48,7 +48,7 @@ const BlogTop = () => {
               <h3 className="font-bold text-[#062C30] text-[14px]">
                 Jaxson Torff
               </h3>
-              <p className="text-[#858585] text-[12px]">Brand Designer</p>
+              <p className="text-[#858585] text-[12px]">Brand Designer.</p>
             </div>
           </div>
         </div>
