@@ -9,7 +9,7 @@ import ActiveLink from "./ActiveLink";
 const Navbar = () => {
   return (
     <div className="w-full z-10 relative">
-      <div className="mx-auto max-w-[1300px]  font-montserrat    z-10">
+      <div className="mx-auto max-w-[1300px]  font-montserrat    ">
         <div className=" navbar flex justify-between items-center">
           <div className=" flex items-center gap-4 font-bold">
             <img className=" w-[100px] h-[100px]" src={logo} alt="" />
@@ -41,7 +41,7 @@ const Navbar = () => {
                   </div>
                   <ul
                     tabIndex={0}
-                    className="dropdown-content text-black z-[1] menu lg:p-3  py-5 space-y-2   shadow-2xl  opacity-10 lg:w-32 w-48 px-5 -mr-4 rounded-lg   text-end   font-bold"
+                    className="dropdown-content text-black menu lg:p-3  py-9 space-y-4    shadow-2xl  opacity-10 lg:w-32 w-48 px-5 -mr-4 rounded-lg   text-end   font-medium bg-slate-200"
                   >
                     <ActiveLink className="text-end flex    justify-end" to="/">
                       Home
@@ -76,15 +76,17 @@ const Navbar = () => {
                     >
                       Career
                     </ActiveLink>
-                    <div
-                      className="text-start -mr-3 justify-center   flex border py-[2px] rounded-2xl border-black items-center"
+                    <ActiveLink
+                   
                       to="/termsandcondition" 
                     >
-<div  className=" ">                      Get a quatation
+<div    className="text-start -mr-3 justify-center   flex border py-[4px] rounded-2xl border-black items-center px-1" >
+<div  className=" text-base">                      Get a quatation
 </div>                     <div className="w-7 flex justify-center items-center  h-7 rounded-full bg-[#FF8700] ml-2  text-white">
                     <FaArrowRight className="" />
                   </div>
-                    </div>
+</div>
+                    </ActiveLink>
                   </ul>
                 </div>
               </div>
