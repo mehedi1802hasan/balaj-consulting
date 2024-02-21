@@ -16,7 +16,7 @@ const Navbar = () => {
           </div>
 
           <div className="">
-            <ul className="menu text-[16px] gap-8 font-monster menu-horizontal px-1 hidden lg:flex md:flex  ">
+            <ul className="menu text-[16px] gap-6 font-monster menu-horizontal px-1 hidden lg:flex md:flex  ">
               <ActiveLink to="/">Home</ActiveLink>
               <ActiveLink to="/services">Service</ActiveLink>
               <ActiveLink to="/portfolio">Portfolio</ActiveLink>
@@ -24,6 +24,8 @@ const Navbar = () => {
               <ActiveLink to="/aboutus">About Us</ActiveLink>
               <ActiveLink to="/contactus">Contact</ActiveLink>
               <ActiveLink to="/career"> Career</ActiveLink>
+              <ActiveLink to="/addblogs"> AddBlog</ActiveLink>
+              <ActiveLink to="/login"> Login</ActiveLink>
               <ActiveLink to="/termsandcondition">
                 <div className="border  border-black flex items-center gap-2 px-3  h-10 -mt-2 rounded-3xl">
                   Get a quatation{" "}
@@ -75,6 +77,18 @@ const Navbar = () => {
                       to="/career"
                     >
                       Career
+                    </ActiveLink>
+                    <ActiveLink
+                      className="text-start flex  justify-end"
+                      to="/addblogs"
+                    >
+                      AddBlog
+                    </ActiveLink>
+                    <ActiveLink
+                      className="text-start flex  justify-end"
+                      to="/login"
+                    >
+                      login
                     </ActiveLink>
                     <ActiveLink
                    

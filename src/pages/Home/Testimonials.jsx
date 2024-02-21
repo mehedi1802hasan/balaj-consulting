@@ -57,7 +57,7 @@ const Testimonials = () => {
           <hr className="border-[#FF8700] border-[1.5px] w-full mx-auto" />
 
            <div className="lg:w-[550px]  mt-8">
-            <h3 className=" text-[35px] text-center lg:text-start lg:text-[50px] lg:leading-[60px] w-full lg:w-11/12  font-bold text-[#191A15]">Our positive reviews do speak, we don’t</h3>
+            <h3 className=" text-[25px] text-center lg:text-start lg:text-[50px] lg:leading-[60px] w-full lg:w-11/12  font-bold text-[#191A15]">Our positive reviews do speak, we don’t</h3>
                      
                      
             <div className="border mx-auto lg:mx-0 font-bold border-black flex items-center gap-2 px-3 w-[220px] justify-center  h-10 mt-6 rounded-3xl">

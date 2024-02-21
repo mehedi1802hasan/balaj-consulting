@@ -10,6 +10,9 @@ import AboutUs from "../pages/AboutUs/AboutUs";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import TermsAndCondition from "../pages/TermsAndCondition.jsx/TermsAndCondition";
 import Career from "../pages/Career/Career";
+import AddBlogs from "../pages/AddBlogs/AddBlogs";
+import Login from "../pages/Login/Login";
+import Registration from "../pages/Login/Registration";
   
 const router = createBrowserRouter([
     {
@@ -49,6 +52,20 @@ const router = createBrowserRouter([
         }
 
       ]
+    },{
+       path:"/addblogs",
+       element:<AddBlogs></AddBlogs>
+
     },
+    {
+      path:"/login",
+      element:<Login></Login>
+
+   },
+   {
+    path:"/registration",
+    element:<Registration></Registration>
+
+ }
   ]);
   export default router;
