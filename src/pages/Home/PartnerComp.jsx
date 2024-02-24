@@ -27,15 +27,15 @@ const PartnerComp = () => {
       </div>
       {/**----- end part:: company names -----------*/}
       <div className="lg:w-[920px] mx-auto">
-       <div className=" mt-3 mb-6 ">
-       <h3 className="text-center lg:text-[40px] font-semibold">Companies we work with</h3>
-        <p className="text-center text-lg">
+       <div className="  mt-6 lg:mt-3 mb-6 ">
+       <h3 className="text-center text-[22px] lg:text-[40px] font-semibold">Companies we work with</h3>
+        <p className="text-center text-[15px] lg:text-lg mt-3 lg:mt-2">
           We have collaborated and worked with over 100+ companies to improve
           and serve their purpose for improving digital presence
         </p>
        </div>
         <div clas>
-          <div className="grid grid-cols-3 lg:grid-cols-6 px-2 space-y-5 ">
+          <div className="grid grid-cols-3 lg:grid-cols-6 px-2 space-y-5 lg:w-full w-[340px] mx-auto lg:mx-0 ">
             <img src={notion} alt="" />
             <img src={discord} alt="" />
             <img src={slack} alt="" />

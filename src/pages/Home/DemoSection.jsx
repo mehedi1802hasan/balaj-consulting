@@ -18,7 +18,7 @@ const DemoSection = () => {
       </div>
 
       {/** --------Demo section-----flex-col lg:flex-row-reverse- */}
-      <div className="bg-[#FF8700] w-[340px]    lg:w-[1300px] mx-auto  h-[480px] lg:h-[600px] rounded-[50px] flex flex-col lg:flex-row-reverse justify-center gap-8 py-5  text-white items-center   ">
+      <div className="bg-[#FF8700] w-[340px]    lg:w-[1300px] mx-auto  h-[480px] lg:h-[600px] rounded-[50px] flex flex-col lg:flex-row-reverse justify-center gap-8  py-5  text-white items-center   ">
         <div className="flex justify-center items-center rounded-3xl">
           <div className=" h-52 w-60 lg:h-[435px] lg:-mt-12 lg:w-[489px]">
             <iframe
@@ -34,41 +34,47 @@ const DemoSection = () => {
           <div className=" w-[300px] lg:w-[632px] text-[22px] lg:text-[64px] lg:leading-[80px] mx-auto   ">
             We are small enough to care big enough to deliver
           </div>
-          <div className="flex justify-between items-center w-[300px] mx-auto lg:w-[652px]  ">
-            <div>
-              <p className="text-[20px] lg:text-[44px] font-semibold text-center">
+          <div className="flex mt-3 lg:mt-0 justify-between items-center w-[300px] mx-auto lg:w-[652px]  ">
+            <div className="-mt-2 lg:mt-0">
+              <p className="text-[16px] lg:text-[44px] font-semibold text-center">
                 {" "}
                 20+
               </p>
-              <p className="text-[10px] lg:text-[14px] w-[78px] text-center">
+              <p className="text-[8px] lg:text-[14px] lg:w-[78px] text-center">
                 BUSINESS CUSTOMERS
               </p>
             </div>
-            <div>
-              <p className="text-[20px] lg:text-[44px] font-semibold text-center">
+            <div className=" -mt-2 lg:mt-0">
+              <p className="text-[16px] lg:text-[44px] font-semibold text-center">
                 {" "}
                 60+
               </p>
-              <p className="text-[10px] lg:text-[14px] w-[78px] text-center">
+              <p className="text-[8px] lg:text-[14px] w-[78px] text-center">
                 Orders completed
               </p>
             </div>
-            <div className="-mt-4 lg:mt-0">
-              <p className="text-[20px] lg:text-[44px] font-semibold text-center">
+            <div className="-mt-3 lg:mt-0">
+              <p className="text-[16px] lg:text-[44px] font-semibold text-center">
                 {" "}
                 100%
               </p>
-              <p className="text-[10px] lg:text-[14px] w-[78px] text-center">
+              <p className="text-[8px] lg:text-[14px] w-[78px] text-center">
                 happy clients
               </p>
             </div>
-            <div className="lg:mt-5 ">
+            <div className="lg:mt-5 hidden lg:block">
               <p className=" py-[18px] lg:py-[60px] px-[2px] w-[45px] lg:w-[79px] flex justify-center  mx-auto border border-white rounded-xl lg:rounded-[99px]">
                 <FiArrowUpRight />
               </p>
               <p className=" text-[12px] lg:text-[30px]">View Demo</p>
             </div>
           </div>
+          <div className=" lg:hidden mt-3">
+              <p className=" py-[15px] lg:py-[60px] px-[2px] w-[45px] lg:w-[79px] flex justify-center  mx-auto border border-white rounded-xl lg:rounded-[99px]">
+                <FiArrowUpRight />
+              </p>
+              <p className=" text-[10px] lg:text-[30px] text-center mt-1">View Demo</p>
+            </div>
         </div>
       </div>
     </div>

@@ -36,24 +36,25 @@ const ProcessSection = () => {
         </div>
 
         {/**text div----- */}
-        <div className=" mt-8 md:-mt-12 lg:-mt-12">
-          <h3 className="text-[#FF8700] text-[26px] md:text-[36px] lg:text-[36px] font-bold w-[302px] mx-auto md:mx-0 lg:mx-0   md:w-[502px] lg:w-[502px] md:leading-[45px] lg:leading-[45px]">
+        <div className="  mt-8 md:-mt-12 lg:-mt-12">
+          <h3 className="text-[#FF8700] text-[22px] md:text-[36px] lg:text-[36px] font-bold w-[302px] mx-auto md:mx-0 lg:mx-0   md:w-[502px] lg:w-[502px] md:leading-[45px] lg:leading-[45px]">
             Experience the Power of Process.
           </h3>
-          <p className="text-[#00000080] text-[15px] md:text-[18px] lg:text-[18px] my-3 md:my-5 lg:my-5 w-[350px] md:w-full lg:w-full mx-auto lg:mx-0 md:mx-0 ">
+          <p className="text-[#00000080] text-[15px] md:text-[18px] lg:text-[18px] my-3 md:my-5 lg:my-5 w-[305px] md:w-full lg:w-full mx-auto lg:mx-0 md:mx-0 ">
             Sit arcu, egestas nunc, eros dignissim nunc, pretium malesuada.
             Tristique est tellus non maecenas in egestas aliquam. Eget dolor
             pellentesque consequat donec lectus nisl ligula. Ut sed nisi amet.
           </p>
 
           {/**discovery div----- */}
-          <div className="flex gap-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
-            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[70px] lg:w-[70px] lg:h-[70px]">
+       <div className="w-[350px] lg:w-full lg:mx-0 mx-auto">
+       <div className=" flex gap-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
+            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[65px] lg:w-[70px] lg:h-[70px]">
               <img src={discovery} alt="" />
             </div>
             <div className="">
-              <p className="text-[#000000]  text-[18px] font-bold">Discovery</p>
-              <p className="text-[#00000080] lg:w-[602px] text-[18px] mt-1">
+              <p className="text-[#000000]  text-[16px] lg:text-[18px] font-bold">Discovery</p>
+              <p className="text-[#00000080] w-[257px] lg:w-[602px] text-[15px] lg:text-[18px] mt-1">
                 Velit lacus ipsum, urna, pretium lacinia. Mauris fermentum ut
                 nunc est, nibh. Lectus eu vel et placerat sed velit morbi diam.
                 Amet malesuada eget aliquam imperdiet. Arcu dolor sed pretiu
@@ -62,54 +63,47 @@ const ProcessSection = () => {
           </div>
 
           {/**plan div----- */}
-              <div className="flex gap-3  my-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
-            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[70px] lg:w-[70px] lg:h-[70px]">
+          <div className=" my-4 flex gap-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
+            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[65px] lg:w-[70px] lg:h-[70px]">
               <img src={plan} alt="" />
             </div>
             <div className="">
-              <p className="text-[#000000]  text-[18px] font-bold">Plan</p>
-              <p className="text-[#00000080] lg:w-[602px] text-[18px] mt-1">
-              Tellus, lacus, sem adipiscing ac sem amet. Vitae proin volutpat
-                cras tempus vitae. Ipsum consectetur quis diam hendrerit
-                pharetra amet scelerisque. Elementum risus aliquam quam etiam.
-                Eget eu risus dui lacus, orci. Cras ultricies posuere adipiscing
-                faucibu.
+              <p className="text-[#000000]  text-[16px] lg:text-[18px] font-bold">Discovery</p>
+              <p className="text-[#00000080] w-[257px] lg:w-[602px] text-[15px] lg:text-[18px] mt-1">
+                Velit lacus ipsum, urna, pretium lacinia. Mauris fermentum ut
+                nunc est, nibh. Lectus eu vel et placerat sed velit morbi diam.
+                Amet malesuada eget aliquam imperdiet. Arcu dolor sed pretiu
               </p>
             </div>
           </div>
 
           {/**Execute div----- */}
          
-              <div className="flex gap-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
-            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[70px] lg:w-[70px] lg:h-[70px]">
+        <div className=" flex gap-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
+            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[65px] lg:w-[70px] lg:h-[70px]">
               <img src={execute} alt="" />
             </div>
             <div className="">
-              <p className="text-[#000000]  text-[18px] font-bold">Execute</p>
-              <p className="text-[#00000080] lg:w-[602px] text-[18px] mt-1">
-              Congue ridiculus at tortor mattis turpis bibendum at pulvinar
-                viverra. Ultrices morbi amet quam nisl risus libero, sodales
-                nibh faucibus. Sed gravida elementum auctor fermentum id sem
+              <p className="text-[#000000]  text-[16px] lg:text-[18px] font-bold">execute</p>
+              <p className="text-[#00000080] w-[257px] lg:w-[602px] text-[15px] lg:text-[18px] mt-1">
+              Congue ridiculus at tortor mattis turpis bibendum at pulvinar viverra. Ultrices morbi amet quam nisl risus libero, sodales nibh faucibus. Sed gravida elementum auctor fermentum id sem
               </p>
             </div>
           </div>
 
           {/**Deliver div----- */}
-              <div className="flex my-3 gap-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
-            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[70px] lg:w-[70px] lg:h-[70px]">
+          <div className=" mt-4 flex gap-3 px-3 lg:px-0 md:px-0 md:gap-5 lg:gap-5 justify-center lg:justify-start">
+            <div className="bg-[#FCEDEE] rounded-[20px] flex justify-center items-center w-[280px] h-[65px] lg:w-[70px] lg:h-[70px]">
               <img src={deliver} alt="" />
             </div>
             <div className="">
-              <p className="text-[#000000]  text-[18px] font-bold">Deliver</p>
-              <p className="text-[#00000080] lg:w-[602px] text-[18px] mt-1">
-              Pellentesque id pharetra, semper neque purus. Ante lacinia in ut
-                sagittis sed sapien. In facilisi in a diam. Pellentesque arcu
-                faucibus vel ornare pulvinar sollicitudin eu. Tempus nisi
-                malesuada convallis velit viverra odio. Senectus consectetur
-                fames in sed velit, ornare. Sed arcu.
+              <p className="text-[#000000]  text-[16px] lg:text-[18px] font-bold">Deliver</p>
+              <p className="text-[#00000080] w-[257px] lg:w-[602px] text-[15px] lg:text-[18px] mt-1">
+              Pellentesque id pharetra, semper neque purus. Ante lacinia in ut sagittis sed sapien. In facilisi in a diam. Pellentesque arcu faucibus vel ornare pulvinar sollicitudin eu. Tempus nisi malesuada convallis velit viverra odio. Senectus consectetur fames in sed velit, ornare. Sed arcu.
               </p>
             </div>
           </div>
+       </div>
         </div>
       </div>
     </div>

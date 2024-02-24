@@ -70,7 +70,7 @@ const Banner = () => {
      
       <div>
         <div className=" w-[329px]  mt-6 lg:mt-0 mx-auto lg:w-[650px]">
-          <h3 className="lg:text-[80px]  font-bold lg:leading-[95px] ">
+          <h3 className=" text-[19px] text-center lg:text-start lg:text-[80px]  font-bold lg:leading-[95px] ">
             We’re here to Increase your Productivity and craft your online
             presence
           </h3>
@@ -79,7 +79,7 @@ const Banner = () => {
         </div>
         {/* <div></div> */}
         <div className="lg:w-[656px] w-[300px] mx-auto mt-7">
-          <h3 className="text-[18px] font-semibold ">
+          <h3 className="text-[16px] text-center lg:text-start lg:text-[18px] font-semibold ">
             Balaj Consulting specializes in IT consulting, digital
             transformation, and software development services. Our focus is on
             providing high-quality, custom-tailored solutions in the realms of
@@ -87,18 +87,18 @@ const Banner = () => {
             software development for businesses undergoing digital
             transformation.
           </h3>
-          <div className="lg:flex w-[200px] lg:w-full mx-auto space-y-4 lg:space-y-0 my-5 items-center gap-4">
-            <div className="border font-bold border-black flex items-center gap-2   w-[192px] justify-center   h-[45px] rounded-3xl">
-              <div className="text-[16px]"> Get a quatation</div>
-              <div className="w-9 flex justify-center items-center  h-9 rounded-full bg-[#E28600]    text-white">
+          <div className="lg:flex w-[150px] lg:w-full mx-auto space-y-4 lg:space-y-0 my-5 items-center gap-4">
+            <div className="border font-bold border-black flex items-center gap-2 w-[150px]  lg:w-[192px] justify-center   h-[45px] rounded-3xl">
+              <div className=" text-[12px] lg:text-[16px]"> Get a quatation</div>
+              <div className=" w-7 lg:w-9 flex justify-center items-center  h-7 lg:h-9 rounded-full bg-[#E28600]    text-white">
                 <FiArrowUpRight className="" />
               </div>
             </div>
-            <div className="border font-bold border-black flex jus items-center    w-[185px] justify-start  gap-3 h-[45px] rounded-3xl">
-              <div className="w-[35px] ml-3 flex justify-center items-center  h-[35px] rounded-full font-bold  text-2xl  text-black">
+            <div className="border font-bold border-black flex  items-center   w-[150px] lg:w-[185px] lg:justify-start  gap-3 h-[45px] rounded-3xl">
+              <div className=" w-[35px] ml-3 flex justify-center items-center  h-[35px] rounded-full font-bold  text-2xl  text-black">
                 <PiVideoThin />
               </div>
-              <div className="text-[16px]"> view demo</div>
+              <div className="text-[12px] lg:text-[16px]"> view demo</div>
             </div>
           </div>
         </div>

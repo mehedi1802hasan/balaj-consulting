@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
         {/**contact part  */}
-        <div className="w-[300px] mx-auto md:mx-0 lg:ms-0 md:w-[612px] lg:w-[612px] text-white h-[458px] md:h-[558px]  lg:h-[558px] rounded-[20px] flex justify-center items-center bg-[#FF8700]">
+        <div className="w-[340px] mx-auto md:mx-0 lg:ms-0 md:w-[612px] lg:w-[612px] text-white h-[458px] md:h-[558px]  lg:h-[558px] rounded-[20px] flex justify-center items-center bg-[#FF8700]">
           <div className="lg:-mt-8">
             <div className="">
               <img
@@ -90,12 +90,12 @@ const Footer = () => {
       </div>
 
       {/**Footer section  */}
-      <footer className="footer   lg:w-[1200px] mx-auto p-2 md:p-8 lg:p-10 mt-9 text-base-content">
-        <div className=" w-[200px] lg:w-full mx-auto lg:-mt-11 ">
-          <h3 className="  text-[24px] text-center lg:text-[45px] font-bold text-[#FF8700]">
+      <footer className="footer w-[300px]  lg:w-[1200px] mx-auto p-2 md:p-8 lg:p-10 mt-9 text-base-content">
+        <div className="  lg:w-full mx-auto lg:-mt-11 ">
+          <h3 className="  text-[22px] w-full  text-center  lg:text-start  lg:text-[45px] font-bold text-[#FF8700]">
             Balaj Consulting
           </h3>
-          <p className=" text-center md:text-start lg:text-start  my-2 md:my-5 lg:my-5  text-[14px] md:text-[18px] lg:text-[18px] text-[#A6A6A6]">
+          <p className="  text-center md:text-start lg:text-start  my-2 md:my-5 lg:my-5  text-[14px] md:text-[18px] lg:text-[18px] text-[#A6A6A6]">
             Get started noew try our product
           </p>
           <div className=" text-center mb-4 md:mb-8 lg:mb-8">
@@ -103,10 +103,10 @@ const Footer = () => {
               onChange={(e) => setSearchText(e.target.value)}
               type="text"
               placeholder="Enter your email here"
-              className="input input-bordered input-md md:w-[350px] p-6 lg:rounded-3xl md:rounded-xl h-[35px] lg:h-[58px]"
+              className="input input-bordered input-md md:w-[350px] p-6 lg:rounded-3xl md:rounded-xl h-[30px] lg:h-[58px]"
             />
-            <button className=" text-white  rounded-full md:rounded-fullover:bg-blue-500 bg-[#FF8700C8] w-[30px] mx-auto md:w-[40px] lg:w-[40px] h-[30px] md:h-[40px] lg:h-[40px] lg:-ml-[70px] md:-ml-[70px] -ml-[40px]">
-              <FaArrowRight className="text-white font-bold flex justify-center items-center w-7 mx-auto" />
+            <button className=" text-white  rounded-full md:rounded-fullover:bg-blue-500 bg-[#FF8700C8] w-[25px] mx-auto md:w-[40px] lg:w-[40px] h-[25px] md:h-[40px] lg:h-[40px] lg:-ml-[70px] md:-ml-[70px] -ml-[40px] ">
+              <FaArrowRight className="text-white font-bold flex justify-center items-center w-6 mx-auto " />
             </button>
           </div>
         </div>
