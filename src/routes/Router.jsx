@@ -13,6 +13,8 @@ import Career from "../pages/Career/Career";
 import AddBlogs from "../pages/AddBlogs/AddBlogs";
 import Login from "../pages/Login/Login";
 import Registration from "../pages/Login/Registration";
+import ManageBlogs from "../pages/ManageBlogs/ManageBlogs";
+import PrivateRoute from "./PrivateRoute";
   
 const router = createBrowserRouter([
     {
@@ -54,18 +56,22 @@ const router = createBrowserRouter([
       ]
     },{
        path:"/addblogs",
-       element:<AddBlogs></AddBlogs>
+       element:<PrivateRoute><AddBlogs></AddBlogs></PrivateRoute>
 
-    },
+    },{
+      path:"/manageblogs",
+      element:<PrivateRoute><ManageBlogs></ManageBlogs></PrivateRoute>
+
+   },
     {
       path:"/login",
       element:<Login></Login>
 
    },
-   {
-    path:"/registration",
-    element:<Registration></Registration>
+//    {
+//     path:"/registration",
+//     element:<Registration></Registration>
 
- }
+//  }
   ]);
   export default router;

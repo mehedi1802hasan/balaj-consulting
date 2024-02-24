@@ -2,11 +2,46 @@ import React, { useContext, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoMdMenu } from "react-icons/io";
-import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import ActiveLink from "./ActiveLink";
+import { AuthContext } from "../pages/Login/Provider";
+import Swal from 'sweetalert2'
 
 const Navbar = () => {
+
+const {user,LogOut} =useContext(AuthContext)
+
+const handleLogout = () => {
+  Swal.fire({
+    title: 'Are you sure?',
+    text: "You won't be able to revert this!",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Yes, logout!'
+  }).then((result) => {
+    if (result.isConfirmed) {
+      LogOut()
+        .then(() => {
+          Swal.fire({
+            title: 'Logged Out!',
+            text: 'You have been logged out.',
+            icon: 'success'
+          }).then(() => {
+            console.log('done..'); // You can navigate to another page or perform any other actions here after successful logout
+          });
+        })
+        .catch((error) => {
+          Swal.fire({
+            title: 'Error',
+            text: error.message || 'An error occurred during logout.',
+            icon: 'error'
+          });
+        });
+    }
+  });
+};
   return (
     <div className="w-full z-10 relative">
       <div className="mx-auto max-w-[1300px]  font-montserrat    ">
@@ -24,8 +59,23 @@ const Navbar = () => {
               <ActiveLink to="/aboutus">About Us</ActiveLink>
               <ActiveLink to="/contactus">Contact</ActiveLink>
               <ActiveLink to="/career"> Career</ActiveLink>
-              <ActiveLink to="/addblogs"> AddBlog</ActiveLink>
-              <ActiveLink to="/login"> Login</ActiveLink>
+            
+     
+        { user &&
+          <>
+             <ActiveLink to="/addblogs"> AddBlog</ActiveLink>
+              <ActiveLink to="/manageBlogs"> ManageBlogs</ActiveLink>
+          </>
+        }
+          { user ?
+          (  <div onClick={handleLogout}>  <ActiveLink  to="/"> Logout</ActiveLink></div>
+            )
+              
+          :
+           
+              (    <ActiveLink to="/login"> Login</ActiveLink>)
+        
+          }
               <ActiveLink to="/termsandcondition">
                 <div className="border  border-black flex items-center gap-2 px-3  h-10 -mt-2 rounded-3xl">
                   Get a quatation{" "}
@@ -78,7 +128,10 @@ const Navbar = () => {
                     >
                       Career
                     </ActiveLink>
-                    <ActiveLink
+                  {
+                    user && 
+                    <>
+                        <ActiveLink
                       className="text-start flex  justify-end"
                       to="/addblogs"
                     >
@@ -86,10 +139,30 @@ const Navbar = () => {
                     </ActiveLink>
                     <ActiveLink
                       className="text-start flex  justify-end"
-                      to="/login"
+                      to="/manageBlogs"
                     >
-                      login
+                      ManageBlogs
                     </ActiveLink>
+                    </>
+                  }
+                   {
+                    user ? 
+                  ( <div onClick={handleLogout}>
+                      <ActiveLink
+                    className="text-start flex  justify-end"
+                    to="/"
+                  >
+                    logout
+                  </ActiveLink>
+                  </div>)
+ :
+                  (  <ActiveLink
+                    className="text-start flex  justify-end"
+                    to="/login"
+                  >
+                    login
+                  </ActiveLink>)
+                   }
                     <ActiveLink
                    
                       to="/termsandcondition" 

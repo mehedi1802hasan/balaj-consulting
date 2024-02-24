@@ -1,14 +1,23 @@
 import React, { useEffect, useState } from "react";
 import blogTop from "../../assets/blogTop.png";
 import blogTopMan from "../../assets/blogTopMan.png";
-import { blogdata } from "../../demodb/blogdata";
+// import { blogdata } from "../../demodb/blogdata";
 import ResponsivePagination from 'react-responsive-pagination';
 import 'react-responsive-pagination/themes/classic.css';
 
 const BlogTop = () => {
+  const [blogdata,setBlogdata]=useState([]);
+  useState(()=>{
+    fetch('http://localhost:5000/blogs')
+    .then(res=>res.json())
+    .then(data=>{
+      console.log(data)
+      setBlogdata(data)
+    })
+  },[])
   console.log("...", blogdata);
   const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 9; // Number of blogs to display per page
+  const postsPerPage = 2; // Number of blogs to display per page
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
@@ -17,6 +26,7 @@ const BlogTop = () => {
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
   };
+
 
   return (
     <div className=" ">

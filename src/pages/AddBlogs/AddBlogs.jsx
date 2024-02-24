@@ -1,8 +1,7 @@
 import React, {  } from 'react';
 import Swal from 'sweetalert2';
 import Navbar from '../../sharedComponent/Navbar';
-// import { AuthContext } from '../Authentication/Provider';
-// import { Slide } from "react-awesome-reveal";
+
 
 const AddBlogs = () => {
 //   const { user } = useContext(AuthContext)
@@ -11,22 +10,22 @@ const AddBlogs = () => {
     event.preventDefault();
     const form = event.target;
     const title = form.title.value;
-    const image = form.imgUrl.value;
+    const image = form.image.value;
     const authorName = form.authorName.value;
     const authorImage = form.authorImage.value;
     const profession = form.profession.value;
     const subtitle = form.subtitle.value;
     const PublisherEmail = form.PublisherEmail.value;
-    const addbook = {
+    const addblog = {
         title, image, authorName, authorImage, profession, subtitle, PublisherEmail
     }
-    console.log(addbook)
-    fetch('https://meet-tech-lab-server.vercel.app/books', {
+    console.log(addblog)
+    fetch('http://localhost:5000/blogs', {
       method: "POST",
       headers: {
         'content-type': 'application/json'
       },
-      body: JSON.stringify(addbook)
+      body: JSON.stringify(addblog)
     })
       .then(res => res.json())
       .then(data => {
