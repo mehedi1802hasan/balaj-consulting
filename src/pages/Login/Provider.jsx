@@ -25,7 +25,7 @@ const Provider = ({children}) => {
             console.log('auth state changed',currentUser)
          ///get and set token
             // if(currentUser){
-            //     axios.post('http://localhost:5000/jwt',{
+            //     axios.post('https://balaj-consulting-server.vercel.app/jwt',{
             //         email:currentUser.email
             //     })
             //     .then(data=>{
@@ -43,12 +43,7 @@ const Provider = ({children}) => {
      },[])
 
 
-    //  const updateUserProfile=(name,photo)=>{
-    //     return  updateProfile(auth.currentUser,{
-    //        displayName: name, photoURL: photo
-    //      })
-        
-    //    }
+   
 
     const updateUserProfile=(name)=>{
         return  updateProfile(auth.currentUser,{

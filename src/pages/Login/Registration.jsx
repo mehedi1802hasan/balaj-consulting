@@ -29,7 +29,7 @@ const Registration = () => {
       updateUserProfile(name)
       .then(()=>{
         const saveUser={name,email}
-        fetch('http://localhost:5000/users',{
+        fetch('https://balaj-consulting-server.vercel.app/users',{
             method:"POST",
             headers:{ 
                 'content-type':"application/json"

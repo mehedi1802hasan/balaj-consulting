@@ -12,9 +12,10 @@ import TermsAndCondition from "../pages/TermsAndCondition.jsx/TermsAndCondition"
 import Career from "../pages/Career/Career";
 import AddBlogs from "../pages/AddBlogs/AddBlogs";
 import Login from "../pages/Login/Login";
-import Registration from "../pages/Login/Registration";
+// import Registration from "../pages/Login/Registration";
 import ManageBlogs from "../pages/ManageBlogs/ManageBlogs";
 import PrivateRoute from "./PrivateRoute";
+import Error from "../sharedComponent/Error";
   
 const router = createBrowserRouter([
     {
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
 //     path:"/registration",
 //     element:<Registration></Registration>
 
-//  }
+//  },
+{
+  path:'*',
+  element:<Error></Error>
+}
   ]);
   export default router;

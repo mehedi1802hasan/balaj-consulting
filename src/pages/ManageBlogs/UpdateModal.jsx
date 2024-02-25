@@ -2,7 +2,7 @@ import React from 'react';
 import Swal from 'sweetalert2';
 import { FaRegEdit } from 'react-icons/fa';
 
-const UpdateModal = ({ item }) => {
+const UpdateModal = ({ item,updateBlogs }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -17,7 +17,7 @@ const UpdateModal = ({ item }) => {
     const addblog={
       image,title,subtitle, authorImage, authorName,profession
         }
-        fetch(`http://localhost:5000/blogs/${item._id}`, {
+        fetch(`https://balaj-consulting-server.vercel.app/blogs/${item._id}`, {
           method: "PUT",
           headers: {
               'content-type': 'application/json'
@@ -28,7 +28,7 @@ const UpdateModal = ({ item }) => {
       .then(data => {
           console.log(data)
           if (data.modifiedCount > 0) {
-              // refetch();
+            updateBlogs()
               Swal.fire({
                   title: 'Well-done!!',
                   text: 'Updated successfully ',

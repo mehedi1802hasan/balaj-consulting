@@ -10,7 +10,7 @@ const ManageMyBooks = () => {
 const [blogs,setBlogs]=useState([]);
 
 const updateBlogs=()=>{
-  fetch('http://localhost:5000/blogs')
+  fetch('https://balaj-consulting-server.vercel.app/blogs')
   .then(res=>res.json())
   .then(data=>{
     console.log(data)
@@ -34,7 +34,7 @@ useEffect(()=>{
       confirmButtonText: 'Yes, delete it!'
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/blogs/${item._id}`, {
+        fetch(`https://balaj-consulting-server.vercel.app/blogs/${item._id}`, {
           method: 'DELETE'
         })
           .then((res) => res.json())
@@ -132,7 +132,7 @@ updateBlogs()
                   <td>
                     <button onClick={() => handleDelete(item)} className=" text-red-500 lg:text-lg md:text-lg"><FaTrashAlt /></button>
                   </td>
-                  <td><UpdateModal key={item.name} item={item} ></UpdateModal></td>
+                  <td><UpdateModal key={item.name} item={item} updateBlogs={updateBlogs} ></UpdateModal></td>
                 </tr>
               ))
             }
